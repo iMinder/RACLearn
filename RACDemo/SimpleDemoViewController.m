@@ -6,13 +6,17 @@
 //  Copyright © 2016年 tencent. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SimpleDemoViewController.h"
+#import <ReactiveObjC/ReactiveObjC.h>
 
-@interface ViewController ()
+@interface SimpleDemoViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *name;
+@property (weak, nonatomic) IBOutlet UITextField *password;
+@property (weak, nonatomic) IBOutlet UIButton *loginButton;
 
 @end
 
-@implementation ViewController
+@implementation SimpleDemoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
